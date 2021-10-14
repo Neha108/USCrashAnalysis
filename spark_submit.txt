@@ -1,0 +1,2 @@
+spark-submit --master yarn --deploy-mode client --executor-memory 10g --driver-memory 3g --conf spark.executor.memoryOverhead=2g  --conf spark.driver.memoryOverhead=1024 <path_of_the_source_code_python_file>/US_Crash_Analysis.py
+
